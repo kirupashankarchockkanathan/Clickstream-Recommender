@@ -1,0 +1,52 @@
+# Data and intermediate outputs
+data/
+outputs/data/
+outputs/tmp/
+outputs/metrics/recs_stream_sample_all.jsonl
+*.csv
+*.gz
+
+# Internal / third-party material (kept locally, not published)
+course_materials/
+project_files/
+papers/
+notes/
+VIVA_GUIDE.md
+ACTIVITY_LOG.md
+PROGRESS.md
+PROMPT.md
+
+# Secrets and local overrides
+.env
+.env.*
+docker-compose.override*.yml
+docker-compose.override*.yaml
+
+# Build artefacts
+*.jar
+src/scala/target/
+src/scala/project/target/
+src/scala/project/project/
+target/
+docs/presentation/*.aux
+docs/presentation/*.log
+docs/presentation/*.nav
+docs/presentation/*.out
+docs/presentation/*.snm
+docs/presentation/*.toc
+docs/presentation/*.vrb
+docs/REPORT_IEEE.aux
+docs/REPORT_IEEE.log
+docs/REPORT_IEEE.out
+*.log
+
+# OS / editor / Python
+.DS_Store
+*.pyc
+__pycache__/
+.idea/
+.vscode/
+.metals/
+.scala-build/
+.bsp/
+docs/REPORT.md
