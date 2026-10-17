@@ -1,0 +1,6 @@
+{"stage":"raw_rows","rows":109950743,"dropped_vs_raw":0}
+{"stage":"after_required_fields","rows":109950731,"dropped_vs_raw":12}
+{"stage":"after_valid_event_type","rows":109950731,"dropped_vs_raw":12}
+{"stage":"after_valid_price","rows":109693970,"dropped_vs_raw":256773}
+{"stage":"after_dedup","rows":109563324,"dropped_vs_raw":387419}
+{"stage":"final_clean_rows","rows":109548185,"dropped_vs_raw":402558}

@@ -1,0 +1,18 @@
+{"experiment":"E1","variant":"JSON scan+groupBy","seconds":8.787922327,"note":"rows=5237430"}
+{"experiment":"E1","variant":"write same rows as Parquet","seconds":22.400959034,"note":""}
+{"experiment":"E1","variant":"Parquet scan+groupBy","seconds":1.138647841,"note":"rows=5237430"}
+{"experiment":"E2","variant":"shuffle.partitions=4","seconds":3.749017008,"note":""}
+{"experiment":"E2","variant":"shuffle.partitions=24","seconds":3.089705507,"note":""}
+{"experiment":"E2","variant":"shuffle.partitions=96","seconds":4.312612065,"note":""}
+{"experiment":"E2","variant":"shuffle.partitions=400","seconds":12.611136968,"note":""}
+{"experiment":"E3","variant":"3 queries, no cache","seconds":5.628305223,"note":""}
+{"experiment":"E3","variant":"3 queries, cache (incl. fill)","seconds":14.785234304,"note":""}
+{"experiment":"E3","variant":"3 queries again (cache warm)","seconds":3.866232937,"note":""}
+{"experiment":"E4","variant":"write as 500 files","seconds":15.005195729,"note":""}
+{"experiment":"E4","variant":"write as 8 files","seconds":2.547407045,"note":""}
+{"experiment":"E4","variant":"read 500 small files","seconds":1.518641633,"note":""}
+{"experiment":"E4","variant":"read 8 files","seconds":0.231701121,"note":""}
+{"experiment":"E5","variant":"sort-merge join (broadcast off)","seconds":3.137991316,"note":""}
+{"experiment":"E5","variant":"broadcast join","seconds":1.137549984,"note":""}
+{"experiment":"E6","variant":"purchases, all 61 days","seconds":1.84128733,"note":""}
+{"experiment":"E6","variant":"purchases, 1 day (pruned)","seconds":0.110823397,"note":""}

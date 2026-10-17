@@ -1,0 +1,1 @@
+{"train_ratings":10961784,"catalog_items":45863,"test_cases":159629,"als_train_seconds":355.143077545,"foldin_topn_ms":5.9541343872,"rank":64,"reg":0.05,"alpha":40.0,"iters":8,"user_pct":25,"test_session_pct":20}

@@ -1,0 +1,1 @@
+{"messages": 44613, "with_recs": 41816, "latency_ms_p50": 8492, "latency_ms_p90": 14112, "latency_ms_p99": 20107, "latency_ms_max": 25117, "events_replayed": 135000, "replay_rate_ev_s": 1500}
